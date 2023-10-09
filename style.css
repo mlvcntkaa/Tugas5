@@ -1,0 +1,144 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 750;
+    float: left;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0 ;
+    background: #00E1BE;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration : underline;
+}
+
+section{
+    margin: 25px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+        font-family: calibri;
+        font-weight: 800;
+        font-size: 65px;
+        margin-bottom: 20px;
+        color: black;
+        width: 100%;
+        line-height: 75px;
+} 
+p1 {
+    color: grey;
+    font-size: 28px;
+}
+a.tbl-putih {
+    color: black;
+    border: 2px solid #00E1BE;
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+
+}
+a.tbl-biru {
+    font-size: 25px;
+    background: #00E1BE;
+    color: #fff;  
+    padding: 8px 23px 8px 23px;
+    margin-right: 20px; 
+    margin-top: 15px;
+}
+
+.jumlah{
+    display: flex;
+    float: left ;
+}
+.jumlah h1 {
+    font-size: 50px;
+    padding:  20px 30px 20px 30px ;
+} 
+
+.bar {
+    float: right;
+}
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-item{
+    width: 20%;
+    margin: 0 auto;
+    box-shadow: inset 1px 1px 4px rgba(0,0,0,0.4);
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.card-title{
+    margin-top: 20px;
+}
+.card-text {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+    color: gray;
+}
